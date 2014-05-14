@@ -1,0 +1,48 @@
+#kontakt_form {
+    width: 500px;
+}
+
+.label {
+    width: 100px;
+}
+
+input, textarea {
+    padding: 5px;
+}
+
+input {
+    width: 200px;
+}
+
+textarea {
+    font-family: arial;
+    font-size: 12px;
+    width: 380px;
+    height: 150px;
+    resize: none;
+}
+
+#kontakt_form #result {
+    display: none;
+    width: 470px;
+    padding: 15px;
+}
+
+#kontakt_form #result h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+#kontakt_form #result ul {
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+
+#kontakt_form .success {
+    background: chartreuse;
+}
+
+#kontakt_form .error {
+    color: #fff;
+    background: red;
+}
